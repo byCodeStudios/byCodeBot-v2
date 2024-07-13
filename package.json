@@ -1,0 +1,25 @@
+{
+  "name": "byCdeBot",
+  "version": "1.0.0",
+  "description": "simple bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "byCodeStudios",
+  "license": "Mit",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "ascii-table": "^0.0.9",
+    "colors": "^1.4.0",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.1.4"
+  },
+  "repository": "https://github.com/byCodeStudios/byCodeBot.git",
+  "private": true
+}
