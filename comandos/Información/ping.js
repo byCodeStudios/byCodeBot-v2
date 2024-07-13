@@ -25,11 +25,11 @@ module.exports = {
 
     let colores;
       if (ping > values.high) {
-        colores = 'red'
+        colores = ''
     } else if (ping > values.medium) {
-        colores = 'yellow'
+        colores = ''
     } else {
-        colores = 'green'
+        colores = ''
     }
 
     let embed = new EmbedBuilder()
