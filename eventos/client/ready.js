@@ -3,6 +3,7 @@ const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 
 const token = process.env.Token;
+const prefix = process.env.Prefix;
 
 module.exports = {
   name: "ready",
