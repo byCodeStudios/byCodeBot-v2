@@ -28,12 +28,8 @@ module.exports = {
     }
 
     if(!message.content.startsWith(client.prefix))return;
-    if(message.content === client.prefix)return;
+    if(message.content === client.prefix)return
 
-    /*if (msg.mentions.has(bot.user)) {
-        return msg.reply(`Mi prefijo es ${prefix}`);*/
-                                                                                                                                                                                                                                                                                                                                                                                                  }
-    
     const args = message.content.slice(client.prefix.length).trim().split(/ +/g);
     const cmd = args.shift().toLowerCase();
 
@@ -54,4 +50,4 @@ module.exports = {
     }
     
   }
-}
+                                    }
