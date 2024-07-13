@@ -27,9 +27,10 @@ module.exports = {
 })();
 
 const status = [
-    `zDoxerMc Support`,
-    `Sponsor: -`,
-    `${prefix}`
+    `• byCodeBot Support`,
+    `• ver: v2`,
+    `• Sponsor: -`,
+    `• ${prefix}`
   ]
 
  setTimeout(function Status() {
