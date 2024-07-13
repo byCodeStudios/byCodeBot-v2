@@ -10,7 +10,7 @@ module.exports = {
     let RegMention = new RegExp(`^<@!?${client.user.id}>( |)$`)
 
      if(message.content.match(RegMention)){
-      const embed = new Discord.MessageEmbed()
+      const embed = new Discord.EmbedBuilder()
      .setThumbnail(message.guild.iconURL({ dynamic: true }))
      .setTitle("Menu de ayuda "+emoji+" "+client.user.username)
      .setDescription(
@@ -35,7 +35,7 @@ module.exports = {
 
     let comando = client.comandos.get(cmd) || client.comandos.find(cmdi => cmdi.aliases && cmdi.aliases.includes(cmd))
     if(!comando){
-      const ee = new Discord.MessageEmbed()
+      const ee = new Discord.EmbedBuilder()
       .setColor("RED")
       .setTitle(":x: `|` Ese comando no existe")
       .setDescription("El comando **"+cmd+"** no existe.\n\nPon `"+client.prefix+"comandos` para ver mis comandos")
