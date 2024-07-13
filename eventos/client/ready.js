@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 
-const { token, prefix } = require("../../config.json");
+const token = process.env.Token;
 
 module.exports = {
   name: "ready",
