@@ -1,4 +1,4 @@
-const { MessageEmbed } = require("discord.js");
+const { EmbedBuilder } = require("discord.js");
 module.exports = {
     name: "ping",
     categoria: "Informacion",
@@ -32,7 +32,7 @@ module.exports = {
         colores = '0x008f39'
     }
 
-    let embed = new MessageEmbed()
+    let embed = new EmbedBuilder()
     .setColor(colores)
     .setTitle(`${color} \`|\` Mi ping es ${ping}ms\n🛰️ \`|\` Ping DiscordAPI: ${client.ws.ping} ms`)
     .setFooter(client.user.tag, client.user.displayAvatarURL())
