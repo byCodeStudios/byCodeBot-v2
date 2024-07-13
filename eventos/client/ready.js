@@ -17,7 +17,7 @@ module.exports = {
 	try {
 
 		await rest.put(
-			Routes.applicationCommands("1000124077119389737"),
+			Routes.applicationCommands("1261378265923322017"),
 			{ body: s },
 		);
 
