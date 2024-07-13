@@ -25,11 +25,11 @@ module.exports = {
 
     let colores;
       if (ping > values.high) {
-        colores = '15548997'
+        colores = '#ED4245'
     } else if (ping > values.medium) {
-        colores = '15105570'
+        colores = '#E67E22'
     } else {
-        colores = '5763719'
+        colores = '#57F287'
     }
 
     let embed = new EmbedBuilder()
